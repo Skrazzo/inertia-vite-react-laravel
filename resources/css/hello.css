@@ -1,0 +1,98 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+.header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    color: rgb(243, 51, 37);
+}
+
+.header-2{
+    margin: 8px 0;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    color: rgb(243, 51, 37);
+}
+
+.context{
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.post-container{
+    
+    background-color: rgb(40, 40, 40);
+    max-width: 1200px;
+
+    margin: 16px auto;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.post-container input{
+    padding: 8px;
+    background-color: transparent;
+    
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 8px;
+    
+    
+    color: white;
+
+    &:focus{
+        
+        outline: 2px solid rgba(243, 51, 37, 0.692);
+    }
+}
+
+.post-container button{
+    padding: 8px;
+    background-color: rgba(243, 51, 37, 0.5);
+    border-radius: 8px;
+    border: 2px solid rgb(243, 51, 37, 0.5);
+    
+    margin: 0 8px;
+    color: white;
+    
+    &:focus{
+        border: 2px solid rgb(243, 51, 37, 1);
+        outline: none;
+    }
+}
+
+.p-normal{
+    font-size:medium;
+    color: white;
+}
+
+.p-important{
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(243, 51, 37, 0.7);
+}
+
+.fgap{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.p-danger{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: x-large;
+
+    color: rgb(243, 51, 37);
+}
