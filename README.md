@@ -47,7 +47,9 @@ Here's how our project is looking right now:
 ## Issue fix 1.
 
 Laravel has loaded, but Vite is trying to access files from the root directory **(This wouldn't be an issue, if you would be making SPA)**
-![[Screenshot from 2023-12-17 12-28-18.png]]
+<img style="width:100%;" src="https://github.com/Skrazzo/inertia-vite-react-laravel/assets/58330666/4493bdf3-cc13-423b-b783-20f30878cbc3" />
+
+
 
 To fix this, we need to edit **vite.config.js** and add **base** path to our compiled files folder 
 ```js
@@ -75,7 +77,8 @@ npm run build
 ## Issue fix 2.
 
 Now when first issue is fixed, our compiled files are executing, but our link is duplicating.
-![[Screenshot from 2023-12-17 12-28-59.png]]
+<img style="width:100%;" src="https://github.com/Skrazzo/inertia-vite-react-laravel/assets/58330666/ffb63e27-ac1d-4463-91ac-8907a50b07f1" />
+
 
 To fix this you will need to edit to this file:
 `project_name/vendor/inertiajs/inertia-laravel/src/Response.php`
